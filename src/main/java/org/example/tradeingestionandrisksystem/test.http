@@ -1,0 +1,13 @@
+POST http://localhost:8080/trades
+Content-Type: application/json
+
+{
+  "symbol": "AAPL",
+  "quantity": 100,
+  "price": 150.5
+}
+
+###
+GET http://localhost:8080/trades
+###
+GET http://localhost:8080/trades/1
